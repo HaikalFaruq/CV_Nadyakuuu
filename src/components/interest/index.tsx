@@ -66,22 +66,22 @@ export const InterestView = () => {
 
   const researchInterest = [
     {
-      title: "Data Science",
+      title: "Learning",
       description:
-        "Data cleaning and feature analysis. Building AI Chat bots using NLP, LLMs, Embeddings.",
+        "Learning anything and everything related to science and creativity. Passionate about self improvement and acquiring new perspectives.",
       position: "side-pos",
       icon: Science,
     },
     {
-      title: "Software Engineering & Architecture",
+      title: "Programming",
       description: "Clean code developer, software design patterns and more...",
       position: "center-pos",
       icon: MachineLearning,
     },
     {
-      title: "Machine Learning",
+      title: "Organization",
       description:
-        "Mining data and playing around with recently released deep learning techniques!",
+        "Mastering time management, productivity hacks, and systems to stay focused and achieve goals efficiently.",
       position: "side-pos",
       icon: Analytics,
     },

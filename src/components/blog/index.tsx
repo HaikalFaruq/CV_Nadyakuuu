@@ -40,20 +40,20 @@ export const BlogView = () => {
         <div className="blog-container" style={styles?.generalContainer} id='Blog'>
             <h2 className={'header-title'}>Latest Posts<span>.</span></h2>
             <div className="blog-element-container" style={styles?.blogElementContainer}>
-                <BlogElement blogTitle={'Implement Snowplow Analytics in Azure'}
+                <BlogElement blogTitle={'Eksekutif Muda BEM KEMA Telkom University Purwokerto'}
                              blogImagePath={Science}
-                             blogDate={'February 20, 2020'}
-                             author={'Besjon'}
+                             blogDate={'Desember 1, 2025'}
+                             author={'Nadya'}
                              style={styles?.elementStyle}/>
-                <BlogElement blogTitle={'Get started: Appache Kafka and Spark'}
+                <BlogElement blogTitle={'Lomba Karya Tulis Ilmiah 2024'}
                              blogImagePath={MachineLearning}
-                             blogDate={'December 20, 2020'}
-                             author={'Besjon'}
+                             blogDate={'December 25, 2025'}
+                             author={'Nadya'}
                              style={styles?.elementStyle}/>
-                <BlogElement blogTitle={'Explore Docker and Kubernetes'}
+                <BlogElement blogTitle={'Kerja Praktik 2025'}
                              blogImagePath={Analytics}
-                             blogDate={'March 20, 2020'}
-                             author={'Besjon'}
+                             blogDate={'February 1, 2025'}
+                             author={'Nadya'}
                              style={styles?.elementStyle}/>
             </div>
         </div>

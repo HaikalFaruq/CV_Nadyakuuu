@@ -8,19 +8,19 @@ export const AboutText = () => {
 
     const skillsSection = [
         {
-            title: 'Software Engineering & Architecture',
-            percentage: '95%',
-            subscription: '95 %',
+            title: 'Programming',
+            percentage: '80%',
+            subscription: '80 %',
             colorClass: 'bg-yellow-400'
         },
         {
-            title: 'Security',
+            title: 'Public Speaking',
             percentage: '98%',
             subscription: '98 %',
             colorClass: 'bg-green-600'
         },
         {
-            title: 'Automation & Testing',
+            title: 'Diplomation',
             percentage: '90%',
             subscription: '90 %',
             colorClass: 'bg-red-600'
@@ -31,10 +31,12 @@ export const AboutText = () => {
         <div className="about-text shadow-dark" style={ styles?.aboutText }>
             <div className={'paragraph'} style={  styles?.paragraph }>
                 <p>
-                    I am Besjon, an engineer with passion to develop amazing software and write clean code.
-                    I like to play around with AI and develop games as well.
+                    Mahasiswa sistem informasi tahun kedua di Telkom University Purwokerto. Sebagai pribadi yang suka
+                    berorganisasi kini saya aktif di Eksekutif Muda di kementrian Dalam Negeri. Saya memiliki keterampilan
+                    dalam organisasi, public speaking yang baik, bekerja dalam tim, strategi acara, serta mampu menjalin
+                    hubungan yang baik dengan berbagai pihak.
                 </p>
-                <a href={'#download'} className={'button'}>Open CV_Skills-Editor</a>
+                <a href={'#download'} className={'button'}>My Short Description</a>
             </div>
             <div className={'about-skills'} style={ styles?.aboutSkills }>
                 {skillsSection.map((skill) => (

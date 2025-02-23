@@ -9,16 +9,16 @@ export const UserContent = () => {
 
     return (
         <div className="user-content">
-            <h2><span className={'font-bold text-yellow-400 text-5xl'}>{'{'}</span> Besjon <span className={'font-bold text-yellow-400 text-5xl'}>{'}'}</span></h2>
+            <h2><span className={'font-bold text-yellow-400 text-5xl'}>{'{'}</span> Nadya Fakhirah <span className={'font-bold text-yellow-400 text-5xl'}>{'}'}</span></h2>
             <div className='type-writer'>
                 <Typewriter
                     options={{
-                        strings: ["Looking for an 🤓💻 Engineer?", "I ❤️ programming #️<{}!"],
+                        strings: ["Infromation System Student 🤓💻", "Nanad ❤️ Programming"],
                         autoStart: true,
                         loop: true,
                     }}
                     onInit={(typewriter) => {
-                        typewriter.typeString('Hello World 👋😄!')
+                        typewriter.typeString('Halo Teman-Teman 👋😄!')
                             .pauseFor(1500)
                             .deleteAll()
                             .start();
@@ -30,7 +30,7 @@ export const UserContent = () => {
                 <LinkedInIcon className='fab' />
                 <TerminalIcon className='fab'/>
             </div>
-            <button className={'hack-me'}>{' >_ '}hackMyResume() <TerminalIcon /> </button>
+            <button className={'hack-me'}>My Creative Portofolio <TerminalIcon /> </button>
             <div className='scroll-me'>
                 <a href="#thanks"><span></span>Scroll Me</a>
             </div>

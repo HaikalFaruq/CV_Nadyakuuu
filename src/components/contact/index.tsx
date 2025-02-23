@@ -56,7 +56,7 @@ export const ContactView = () => {
                             setTimeout(() => {
                                 Swal.fire({
                                     title: 'Message Sent',
-                                    text: `Hey👋, thanks for your message!\nI will get back to you soon 😃`,
+                                    text: `Hallo 👋, Terimakasih! \n I will get back to you soon 😃`,
                                     icon: 'success'
                                 });
                                 setSubmitting(false);

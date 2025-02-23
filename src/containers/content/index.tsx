@@ -22,7 +22,7 @@ export const Content = () => {
                 <AboutView/>
                 <InterestView />
                 <WorkView />
-                <SocialMediaSection />
+                {/* <SocialMediaSection /> */}
                 {!isMobile && <AnimatedText />}
                 <BlogView />
                 <ContactView />

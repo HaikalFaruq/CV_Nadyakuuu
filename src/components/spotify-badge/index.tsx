@@ -19,8 +19,8 @@ export const SpotifyBadge = () => {
                     </div>
                 </div>
                 <div className="texts">
-                    <p className="title-1">Software Engineer</p>
-                    <p className="title-2">Programming...</p>
+                    <p className="title-1" style={{ fontSize: '20px' }}>Information System</p>
+                    <p className="title-2" style={{ fontSize: '15px' }}>Programming...</p>
                 </div>
             </div>
 

@@ -14,15 +14,15 @@ export const AnimatedText = () => {
     const { styles } = useContext(ResponsivenessContext);
     const textElements = [
         {
-            text: "DEVELOP",
+            text: "INFORMATION",
             hidden: "CLEAN CODE"
         },
         {
-            text: "SOFTWARE",
+            text: "SYSTEM",
             hidden: "ARCHITECT"
         },
         {
-            text: "SOLUTIONS",
+            text: "STUDENT",
             hidden: "TECH"
         }
     ]

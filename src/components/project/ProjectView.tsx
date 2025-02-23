@@ -38,16 +38,6 @@ const ProjectElement = (props: any) => {
         style={style}
         onClick={handleOpen}
       >
-        <div className={"project-image"}>
-          <img
-            width={"100%"}
-            height={"100%"}
-            style={{ borderRadius: '15px' }}
-            src={project.image[0]}
-            loading="lazy"
-          />
-          <h2>{project.title}</h2>
-        </div>
         <div className={"project-info"}>
           <div className={"project-title"}>
             <h2>{project.title}</h2>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import CountUp from 'react-countup';
 import '../../sass/_about.scss';
 import { AboutText } from "./AboutText";
-import UserProfileImg from '../../assets/images/about_user_profile.png';
+import UserProfileImg from '../../assets/images/nanadcans.svg';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 import { useInView, animated } from '@react-spring/web'
 import { buildInteractionObserverThreshold } from "@/utils/Threshold.utils";
